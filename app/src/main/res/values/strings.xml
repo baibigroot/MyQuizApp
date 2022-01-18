@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">MyQuiz App</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_settings">Settings</string>
+    <string name="questions_amount">Questions amount : %1$s</string>
+    <string name="quiz">Quiz</string>
+    <string name="category">Category</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="start">START</string>
+    <string name="write_some_feedback">Write some feedback</string>
+    <string name="send">Send</string>
+    <string name="correct_answers">Correct answers:</string>
+    <string name="share_msg_text">Check your knowledge with QuizApp!</string>
+    <string name="share_with">Select app to share with</string>
+    <string name="mailto">mailto:</string>
+    <string name="email">miraidajaanbaeva@gmail.com</string>
+    <string name="feedback_for">Feedback for QuizApp</string>
+    <string name="history">History</string>
+    <string name="ten">10</string>
+    <string name="back">back</string>
+    <string name="skip">Skip</string>
+    <string name="false_str">False</string>
+    <string name="true_str">True</string>
+
+    <string name="iscorrect">isCorrect</string>
+    <string name="result">Result</string>
+    <string name="good">good</string>
+    <string name="finish">Finish</string>
+    <string name="difficulty_">Difficulty: %1$s</string>
+    <string name="correct_answers_">Correct answers: %1$s/%2$s</string>
+    <string name="result_">Result:</string>
+    <string name="category_">Category: %1$s</string>
+    <string name="menu">menu</string>
+    <string name="are_you_sure_all">Вы уверены ,что хотите удалить всю историю?</string>
+    <string name="are_you_sure">Вы уверены ,что хотите удалить?</string>
+    <string name="empty">Empty</string>
+    <string name="true_">True</string>
+    <string name="false_">False</string>
+    <string name="settings">Settings</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="more">more</string>
+    <string name="rate_us">Rate us</string>
+    <string name="leave_feedback">Leave feedback</string>
+    <string name="clear_history">Clear history</string>
+
+    <!--        Arrays              -->
+    <string-array name="category_array">
+        <item>All</item>
+        <item>General Knowledge</item>
+        <item>Entertainment: Books </item>
+        <item>Entertainment: Film</item>
+        <item>Entertainment: Music </item>
+        <item>Entertainment: Musicals and Theatres </item>
+        <item>Entertainment: Television </item>
+        <item>Entertainment: Video Games </item>
+        <item>Entertainment: Board Games </item>
+        <item>Science and Nature</item>
+        <item>Science: Computers </item>
+        <item>Science: Mathematics</item>
+        <item>Mythology</item>
+        <item> Sports</item>
+        <item>Geography </item>
+        <item>History </item>
+        <item>Politics</item>
+        <item>Art </item>
+        <item>Celebrities</item>
+        <item>Animals </item>
+        <item>Vehicles </item>
+        <item>Entertainment: Comics </item>
+        <item>Science: Gadgets </item>
+        <item>Entertainment: Japanese Anime and Manga </item>
+        <item>Entertainment: Cartoon and Animations</item>
+
+    </string-array>
+    <string-array name="difficulty_array">
+        <item>All</item>
+        <item>easy</item>
+        <item>medium</item>
+        <item>hard</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_format">dd mmm yyyy kk:mm</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/black_200"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/toolbar_title_style"
+        android:text="@string/settings"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="34dp"
+        android:background="@drawable/bg_linear_layout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/tv_title">
+
+        <TextView
+            style="@style/settings_tv_style"
+            android:layout_weight="1"
+            android:text="@string/share_this_app" />
+
+        <ImageView
+            style="@style/settings_iv_style"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rate"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_linear_layout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/share">
+
+        <TextView
+            style="@style/settings_tv_style"
+            android:layout_weight="1"
+            android:text="@string/rate_us" />
+
+        <ImageView
+            style="@style/settings_iv_style"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_linear_layout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/rate">
+
+        <TextView
+            style="@style/settings_tv_style"
+            android:layout_weight="1"
+            android:text="@string/leave_feedback" />
+
+        <ImageView
+            style="@style/settings_iv_style"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/clear_history"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/bg_linear_layout"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/feedback">
+
+        <TextView
+            style="@style/settings_tv_style"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/clear_history"
+            android:textColor="@color/purple_500" />
+
+        <ImageView
+            style="@style/settings_iv_style"
+            android:contentDescription="@string/more"
+            android:src="@drawable/ic_more" />
+
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/cordinator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/bottom_sheet_feedback_layout"/>
+        <include layout="@layout/bottom_sheet_dialog_layout" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
